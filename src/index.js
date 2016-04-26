@@ -76,7 +76,7 @@ function Perf() {
 if (typeof define === 'function' && define.amd) {
   define([], Perf);
 } else if (typeof module === 'object' && module.exports) {
-  module.exports = exports.default = Perf;
+  module.exports = Perf;
 } else {
   window.easyJsPerf = Perf;
 }
