@@ -1,0 +1,26 @@
+{
+  "name": "easy-js-perf",
+  "version": "0.1.0",
+  "description": "A human readable wrapper of `window.performance` API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonslyvia/easy-js-perf.git"
+  },
+  "keywords": [
+    "performance",
+    "perf"
+  ],
+  "author": "jasonslyvia <jasonslyvia@gmail.com> (http://undefinedblog.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonslyvia/easy-js-perf/issues"
+  },
+  "homepage": "https://github.com/jasonslyvia/easy-js-perf#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
